@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naswanna's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon_io/favicon.ico" type="image/x-icon"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e2e9970dec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/naswanna231_nobg.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Geologist</p>
+                <h1>Hi, I'm <span>Naswanna Asin</span> <br> <span>Geologist</span> at Borneo Geoscience Sdn. Bhd. <br>From Malaysia.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------   ABOUT   ------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/nerd.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am Naswanna Anak Asin, a Geologist from Malaysia with a Bachelor’s Degree (Hons) in Applied Science (Geoscience) from Universiti Malaysia Kelantan, awarded in 2024. 
+                        I specialize in Geological Assessment, Data Analysis, Geosite Assessment, and Project Coordination, with experience in both government and private sector projects, 
+                        including the Development of Karst Geosite in Bau and Geological Mapping at Gunung Gading, Lundu in Sarawak.<br>
+
+                        To accomplish my tasks effectively, I regularly use advanced geological and mapping software such as ArcGIS, Dips, MacroMedia Freehand MX, GeoRose, QGIS, and Global Mapper.
+                        Currently employed with Borneo Geoscience Sdn. Bhd. I am committed to expanding my expertise and contributing to impactful geological initiatives.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Geological Expertise</span><br>Geological Mapping & Analysis | Geotechnical Assessment (Slope Stability, Rockfall Hazard) | Geosite Assessment & Development | Hydrological Studies</li>
+                            <li><span>Software Proficiency</span><br>ArcGIS | Dips | GeoRose | Global Mapper | QGIS | Macromedia Freehand MX | SAS Planet | Google Earth Pro</li>
+                            <li><span>Technical Skills</span><br>Drone Operation for Aerial Surveying | Problem-Solving & Attention to Detail | Documentation & Reporting | Coordination with Government Agencies</li>
+                            <li><span>Soft Skills</span><br>Communication & Teamwork | Time Management & Adaptability | Project Management & Coordination</li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Geologist</span><br>
+                                Borneo Geoscience Sdn. Bhd.<br>
+                                Malaysia · On-site<br>
+                                <em>1 August 2024 - Current</em>
+                                <ul>
+                                    <li>Contributed to impactful geological initiatives through Geological Assessment and Project Coordination.</li>
+                                    <li>Applied expertise in geological and mapping software such as ArcGIS, Dips, QGIS, and Global Mapper.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Geological Project Contributor</span><br>
+                                Development of Karst Geosite in Bau<br>
+                                Sarawak, Malaysia<br>
+                                <em>6 May 2024 – 23 November 2024</em>
+                                <ul>
+                                    <li>Participated in the development of Karst Geosite, contributing to geological site assessment and planning.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>Geological Mapping</span><br>
+                                Gunung Gading, Lundu<br>
+                                Sarawak, Malaysia<br>
+                                <em>6 May 2024 – 1 August 2024</em>
+                                <ul>
+                                    <li>Conducted geological mapping and site evaluation, utilizing advanced mapping tools and techniques.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Bachelor’s Degree (Hons) in Applied Science (Geoscience)</span><br>
+                                Universiti Malaysia Kelantan<br>
+                                Kelantan, Malaysia<br>
+                                <em>2020 - 2024</em>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>Malaysian Higher School Certificate (Sijil Tinggi Persekolahan Malaysia)</span><br>
+                                Sekolah Menengah Kebangsaan Tun Abdul Razak<br>-
+                                Sarawak, Malaysia<br>
+                                <em>2018-2019</em>
+                            </li>
+                        </ul>
+                    </div>                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------   SERVICES   ------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-mountain"></i>
+                    <h2>Geological Assessment</h2>
+                    <p>I provide detailed geological assessments for various projects, utilizing my expertise in geological mapping, geosite evaluation, and karst geosite development. Utilizing advanced tools like ArcGIS, QGIS, and Global Mapper. My experience ensures accurate and insightful geological insights.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <h2>Geotechnical Assessment</h2>
+                    <p>Experienced in geotechnical assessment, specializing in slope mapping and analysis to evaluate potential failures such as landslides and erosion. Utilizing tool like soil penetrometer. I deliver accurate assessments to support sustainable infrastructure and environmental safety.</p>
+                    <a href="#">Learn More</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-handshake"></i>
+                    <h2>Project Coordination</h2>
+                    <p>I offer project coordination services, ensuring seamless collaboration and efficient execution of geological projects in both government and private sectors, from initiation to completion.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-map-marked-alt"></i>
+                    <h2>Geotourism and Geosite Assessment</h2>
+                    <p>With experience in assessing geosites such as Bau, I deliver comprehensive evaluations that highlight the geological significance and development potential of key locations.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------   PORTFOLIO   ------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/riverbankprotection.jpg">
+                    <div class="layer">
+                        <h3>Riverbank Protection Works</h3>
+                        <p>Provided consultancy services as a third-party independent reviewer for proposed riverbank protection works and waterfront at Samarahan Regatta Site, Kpg Tambirat, Asajaya.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Slope Stability Investigation.jpg">
+                    <div class="layer">
+                        <h3>Slope Stability Investigation</h3>
+                        <p>Conducted slope stability studies in Kundasang, Sabah, focusing on safety, sustainability, and geotechnical analysis for environmental protection.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Hydro Cascade Catchment Management.jpg">
+                    <div class="layer">
+                        <h3>Hydro Cascade Catchment Management</h3>
+                        <p>Carried out specific studies for the Murum-Bakun Hydro Cascade Catchment Management Plan (CMP) to optimize resource conservation and energy sustainability.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Slope Mapping Assessment.jpg">
+                    <div class="layer">
+                        <h3>Slope Mapping Assessment</h3>
+                        <p>Performed geological assessments for the Transmission Line Project, contributing to the design and construction phases for efficient energy distribution.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Karst Geosite Mapping.jpg">
+                    <div class="layer">
+                        <h3>Karst Geosite Mapping</h3>
+                        <p>Performed geosites mapping, biosites mapping, cultural sites mapping, geotrail development, provision of information panel.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Karst Geosite Coordination.jpg">
+                    <div class="layer">
+                        <h3>Karst Geosite Coordination</h3>
+                        <p>Organised 2 workshops and a seminar on community-based ability development, Geosite Development Plan Documents for Geotourism and final report preparation.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Detailed Geological Mapping – Bario.jpg">
+                    <div class="layer">
+                        <h3>Detailed Geological Mapping – Bario</h3>
+                        <p>Delivered detailed geological mapping services for a 9km² area in Bario Asal, Bario, Sarawak, supporting research and geoscientific development initiatives.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Detailed Geological Mapping – Gunung Gading.jpg">
+                    <div class="layer">
+                        <h3>Detailed Geological Mapping – Gunung Gading</h3>
+                        <p>Carried out detailed geological mapping, geomorphological mapping, hydrological mapping, engineering geological mapping and stratigraphical mapping.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+                    
+
+        </div>
+    </div>
+    
+    <!------------   CONTACT   ------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i>naswannaasin@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/naswanna-asin-55b352334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Naswanna" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://my.jobstreet.com/profile/naswanna-asin-l7085hvJdT" target="_blank"><img src="/./images/jobstreet-com-logo-D306D7F14E-seeklogo.com.png" alt="JobStreet Malaysia" width="140" />
+                        </a>
+                    </div>
+                    <a href="./images/Naswanna Anak Asin CV.pdf" download class="btn btn2">Download CV / Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="confirmation-message"></span>                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="far fa-copyright"></i> 2025 Naswanna Asin. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function openTab (tabName) {
+            for(tabLink of tabLinks) {
+                tabLink.classList.remove("active-link");  
+            }
+            for(tabContent of tabContents) {
+                tabContent.classList.remove("active-tab");   
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sideMenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzo3RTwG0l7UeNxULooSPO7fPOaf6AkY43F4jbY7QgXTR02GLe6IFt0_VAtVZorlF9FTw/exec';
+
+        const form = document.forms['submit-to-google-sheet']
+        const confirmationMessage = document.getElementById("confirmation-message")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                confirmationMessage.innerHTML = "Message sent Successfully"
+                setTimeout(function() {
+                    confirmationMessage.innerHTML = ""}, 5000)
+                    form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        // Array of images corresponding to the work items
+        const images = [
+            "./images/riverbankprotection.jpg",
+            "./images/Slope Stability Investigation.jpg",
+            "./images/Hydro Cascade Catchment Management.jpg",
+            "./images/Slope Mapping Assessment.jpg",
+            "./images/Karst Geosite Mapping.jpg",
+            "./images/Karst Geosite Coordination.jpg",
+            "./images/Detailed Geological Mapping – Bario.jpg",
+            "./images/Detailed Geological Mapping – Gunung Gading.jpg",
+        ];
+    
+        document.querySelectorAll('.work').forEach((work, index) => {
+            let currentIndex = index; // Start with the corresponding image for each work item
+            const workImage = work.querySelector('img'); // Select the img element directly
+            
+            // Set the initial image based on the index
+            workImage.src = images[currentIndex];
+    
+            // Left arrow event
+            work.querySelector('.left-arrow')?.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                workImage.src = images[currentIndex];
+            });
+    
+            // Right arrow event
+            work.querySelector('.right-arrow')?.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                workImage.src = images[currentIndex];
+            });
+        });
+    </script>
+    
+</body>
+</html>
